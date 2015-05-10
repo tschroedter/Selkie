@@ -8,10 +8,11 @@ Please, read the Wikki for more details.
 
 # Selkie projects:
 
+* [Selkie](https://github.com/tschroedter/Selkie)
 * Selkie ACO
-* Selkie Common
+* [Selkie Common](https://github.com/tschroedter/Selkie.Common)
 * [Selkie EasyNetQ](https://github.com/tschroedter/Selkie.EasyNetQ)
-* Selkie Geometry
+* [Selkie Geometry] (https://github.com/tschroedter/Selkie.Geometry)
 * [Selkie NUnit Extensions](https://github.com/tschroedter/Selkie.NUnit.Extensions)
 * Selkie Racetrack
 * Selkie Services ACO
