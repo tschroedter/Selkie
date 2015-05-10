@@ -3,8 +3,9 @@ The main goal of the Selkie project is to calculate and displays the shortest pa
 
 The project started as a little ant colony optimization application. Over time the application grew and was split up into different services which communicate via EasyNetQ/RabbitMQ and use Castle Windsor. The whole project is used to try out TDD, BDD, DRY and SOLID.
 
-Please, read the Wikki for more details.
+Please, read the [Wikki](https://github.com/tschroedter/Selkie/wiki) for more details.
 
+![Finished Both 60](https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/45%20Degree%20Lines/WPF%20-%20Finished%20-%20Turnradius%2060%20Allowed%20Turns%20Both.png?raw=true)
 
 # Selkie projects:
 
