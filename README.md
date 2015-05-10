@@ -3,6 +3,9 @@ The main goal of the Selkie project is to calculate and displays the shortest pa
 
 The project started as a little ant colony optimization application. Over time the application grew and was split up into different services which communicate via EasyNetQ/RabbitMQ and use Castle Windsor. The whole project is used to try out TDD, BDD, DRY and SOLID.
 
+Please, read the Wikki for more details.
+
+
 # Selkie projects:
 
 * Selkie ACO
