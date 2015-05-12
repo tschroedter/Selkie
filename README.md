@@ -7,7 +7,7 @@ Please, read the [Wikki](https://github.com/tschroedter/Selkie/wiki) for more de
 
 ![Finished Both 60](https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/45%20Degree%20Lines/WPF%20-%20Finished%20-%20Turnradius%2060%20Allowed%20Turns%20Both.png?raw=true)
 
-# Selkie projects:
+### Selkie Projects
 
 * [Selkie](https://github.com/tschroedter/Selkie)
 * Selkie ACO
