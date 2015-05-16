@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
     <!--[if lt IE 9]>
@@ -32,86 +32,18 @@
 <a id="welcome-to-the-selkie-wiki" class="anchor" href="#welcome-to-the-selkie-wiki" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to the Selkie wiki!</h1>
 
 <h3>
-<a id="to-do-general-description" class="anchor" href="#to-do-general-description" aria-hidden="true"><span class="octicon octicon-link"></span></a>To-do general description</h3>
+<a id="the-architecture" class="anchor" href="#the-architecture" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://github.com/tschroedter/Selkie/wiki/Architecture">The Architecture</a>
+</h3>
 
 <h3>
-<a id="to-do-explain-project-structure" class="anchor" href="#to-do-explain-project-structure" aria-hidden="true"><span class="octicon octicon-link"></span></a>To-do explain project structure</h3>
-
-<h3>
-<a id="to-do-explain-bamboo-build-server" class="anchor" href="#to-do-explain-bamboo-build-server" aria-hidden="true"><span class="octicon octicon-link"></span></a>To-do explain Bamboo build server</h3>
-
-<h2>
-<a id="the-wpf-prototype" class="anchor" href="#the-wpf-prototype" aria-hidden="true"><span class="octicon octicon-link"></span></a>The WPF Prototype</h2>
-
-<p>I used the WPF prototype to confirm the result of the Ant Colonization Algorithm (ACO). There is no fancy UI, just the bare minimum to setup ACO and show the results. The main window is split up into two sections: the left hand side allows configuring the system and the right hand side shows the survey lines.</p>
-
-<p><strong>The left hand side contains:</strong></p>
+<a id="the-wpf-prototype" class="anchor" href="#the-wpf-prototype" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="https://github.com/tschroedter/Selkie/wiki/The-WPF-Prototype">The WPF Prototype</a>
+</h3>
 
 <ul>
-<li>A control panel to start and stop the ACO computing.</li>
-<li>A settings panel to change the minimum turn radius and allowed turns.</li>
-<li>A history panel showing the found solutions and statistics.</li>
-<li>A pheromones panel showing min, max and average values including a grey scale image.</li>
+<li>To-do general description</li>
+<li>To-do explain project structure</li>
+<li>To-do explain Bamboo build server</li>
 </ul>
-
-<p><strong>The right hand side contains:</strong></p>
-
-<ul>
-<li>A kind of ‘map’ showing the lines to be surveyed and the racetracks to get from one line to the next. The ‘map’ will be updated whenever a new best trail/path is found. </li>
-</ul>
-
-<p><img src="https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/45%20Degree%20Lines/WPF%20-%20Not%20Started.png?raw=true" alt="NotStarted"></p>
-
-<h3>
-<a id="both-turns-allowed" class="anchor" href="#both-turns-allowed" aria-hidden="true"><span class="octicon octicon-link"></span></a>Both turns allowed</h3>
-
-<p>The image below shows the result for a set of lines which are 60 points apart on a 45 degree angle using the default setting (turn radius 60 points and both turns allowed). </p>
-
-<ul>
-<li>The green highlighted node indicates the start point of the track. </li>
-<li>The red highlighted node indicates the end point of the track. </li>
-</ul>
-
-<p><img src="https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/45%20Degree%20Lines/WPF%20-%20Finished%20-%20Turnradius%2060%20Allowed%20Turns%20Both.png?raw=true" alt="Finished Both 60"></p>
-
-<p>The history table shows Iteration, length, delta, delta %, type and trail:</p>
-
-<ul>
-<li>Iteration is the number of iterations used to find the track.</li>
-<li>Length is the calculated length of the track from start to end including racetracks.</li>
-<li>Delta relative to the first found track.</li>
-<li>Delta in percent relative to the first found track.</li>
-<li>Type is the ant type which found the track.</li>
-<li>Trail is a list of nodes defining the order in which the survey lines should be traveled.</li>
-</ul>
-
-<h3>
-<a id="only-port-turns-allowed" class="anchor" href="#only-port-turns-allowed" aria-hidden="true"><span class="octicon octicon-link"></span></a>Only port turns allowed</h3>
-
-<p>The image below shows the result for the same turn radius but with only port turns allowed.</p>
-
-<p><img src="https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/45%20Degree%20Lines/WPF%20-%20Finished%20-%20Turnradius%2060%20Allowed%20Turns%20Port.png?raw=true" alt="Only Port"></p>
-
-<h3>
-<a id="only-starboard-turns-allowed" class="anchor" href="#only-starboard-turns-allowed" aria-hidden="true"><span class="octicon octicon-link"></span></a>Only starboard turns allowed</h3>
-
-<p>The image below shows the result for the same turn radius but with only starport turns allowed.</p>
-
-<p><img src="https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/45%20Degree%20Lines/WPF%20-%20Finished%20-%20Turnradius%2060%20Allowed%20Turns%20StarPort.png?raw=true" alt="Only Starboard"></p>
-
-<h3>
-<a id="changing-the-turn-radius" class="anchor" href="#changing-the-turn-radius" aria-hidden="true"><span class="octicon octicon-link"></span></a>Changing the turn radius</h3>
-
-<p>The image below shows the result for a turn radius of 120 (double than before) and both turns allowed.</p>
-
-<p><img src="https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/45%20Degree%20Lines/WPF%20-%20Finished%20-%20Turnradius%20120%20Allowed%20Turns%20Both.png?raw=true" alt="Turn Radius 120 Both"></p>
-
-<h3>
-<a id="using-a-grid-of-lines" class="anchor" href="#using-a-grid-of-lines" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using a grid of lines</h3>
-
-<p>The image below shows the result for a grid of lines with the default values.</p>
-
-<p><img src="https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/Cross%20Parallel%20Lines/Grid%20With%2010%20Lines.png?raw=true" alt="Cross Parallel Lines"></p>
 
 <hr>
 
