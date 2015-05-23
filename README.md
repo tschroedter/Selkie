@@ -7,11 +7,12 @@ The project started as a little ant colony optimization application. Over time t
 ## How to build everything?
 
 ### Bamboo
-Bamboo as a build server with custom scripts:
+Bamboo is used as a build server with custom scripts:
 * to take care of all the version numbers in the Selkie NuGet packages
 * to use ReSharper to check for issues 
 * to run test for NUnit, XUnit and Specflow
-* to calcluate code coverage using OpenCovr
+* to calcluate code coverage using OpenCover
+* to push NuGet packages to ProGet
 
 ### ProGet
 - ProGet as a NuGet repository
