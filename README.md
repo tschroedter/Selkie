@@ -26,5 +26,5 @@ Please, read the [Wikki](https://github.com/tschroedter/Selkie/wiki) for more de
 * [Selkie Services Racetracks Common](https://github.com/tschroedter/Selkie.Services.Racetracks.Common)
 * Selkie Web
 * [Selkie Windsor](https://github.com/tschroedter/Selkie.Windsor)
-* Selkie WPF
+* [Selkie WPF](https://github.com/tschroedter/Selkie.WPF)
 * [Selkie XUnit Extensions](https://github.com/tschroedter/Selkie.XUnit.Extensions)
