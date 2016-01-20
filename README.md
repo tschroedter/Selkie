@@ -19,6 +19,7 @@ Please, read the [Wikki](https://github.com/tschroedter/Selkie/wiki) for more de
 * [Selkie Services ACO](https://github.com/tschroedter/Selkie.Services.Aco)
 * [Selkie Services ACO Common](https://github.com/tschroedter/Selkie.Services.Aco.Common)
 * [Selkie Services Common](https://github.com/tschroedter/Selkie.Services.Common)
+* [Selkie Services Common Dto](https://github.com/tschroedter/Selkie.Services.Common.Dto)
 * [Selkie Services Lines](https://github.com/tschroedter/Selkie.Services.Lines)
 * [Selkie Services Lines Common](https://github.com/tschroedter/Selkie.Services.Lines.Common)
 * [Selkie Services Monitor](https://github.com/tschroedter/Selkie.Services.Monitor)
