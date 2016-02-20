@@ -71,9 +71,7 @@ A bunch of custom tools to update assembly version, NuGet spec files and other t
 
 * [Selkie Windsor] (https://github.com/tschroedter/Selkie.Windsor)
 This package is an extension to Castle Windsor and provides class attributes to mark and load classes automatically as singleton, transient or start-able. It also contains an ITypedFactory interface which loads interfaces inheriting from it as factories at start-up.
-The packages include different installers and a loader class. The loader class finds all classes using the custom class attributes and registers the class according to the attribute. The included base installer is used to create a loader class and run the registration.
-
-PS: If you only want to look at one ‘only’ package look at this one. It makes dependency inversion such much simpler!
+The packages include different installers and a loader class. The loader class finds all classes using the custom class attributes and registers the class according to the attribute. The included base installer is used to create a loader class and run the registration. - *If you only want to look at one ‘only’ package look at this one. It makes dependency inversion such much simpler!*
 
 * [Selkie WPF] (https://github.com/tschroedter/Selkie.WPF)
 The first try to show the results in some way. I used a simple WPF application which is implemented like the rest: SOLID, Lean and Dry. – Not a fancy UI!  Not very user friendly! - But does the job of showing the settings, lines, racetracks and history.
