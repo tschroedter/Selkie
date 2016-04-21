@@ -6,7 +6,7 @@ The project started as a little ant colony optimization application. Over time t
 Please, read the [Wikki](https://github.com/tschroedter/Selkie/wiki) for more details or watch a short [video](https://youtu.be/dLSQiy0LisU).
 
 ## Simple Example
-![Finished Both 60](https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/45%20Degree%20Lines/WPF%20-%20Finished%20-%20Turnradius%2060%20Allowed%20Turns%20Both.png?raw=true)
+![Finished Both 60](https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/45%20Degree%20Lines/WPF%20-%20Finished.png?raw=true)
 
 ## Complex Example
 ![Complex 80 Lines](https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/Complex/4%20Grids%20%2880%20Lines%29.png)
