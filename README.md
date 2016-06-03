@@ -5,10 +5,8 @@ The project started as a little ant colony optimization application. Over time t
 
 Please, read the [Wikki](https://github.com/tschroedter/Selkie/wiki) for more details or watch a short [video](https://youtu.be/dLSQiy0LisU).
 
-*100,000* - The Selkie project grew over time and hit the milesstone of 100,000 lines of code. You can have a lock at some statistics ![here](???). The graph below gives an idea of the different project sizes.
-
-![Graph](https://github.com/tschroedter/Selkie/blob/master/LocMetrics/LocMetricsPie.png)
-
+##100,000
+The Selkie project grew over time and hit the milesstone of 100,000 lines of code. You can have a lock at some statistics ![here](https://github.com/tschroedter/Selkie/blob/master/LocMetrics/LocMetrics.md). The graph below gives an idea of the different project sizes.
 
 ## Simple Example
 ![Finished Both 60](https://github.com/tschroedter/Selkie/blob/master/Images/WPF%20-%20Prototype/45%20Degree%20Lines/WPF%20-%20Finished.png?raw=true)
