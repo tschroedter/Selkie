@@ -5,6 +5,9 @@ The project started as a little ant colony optimization application. Over time t
 
 Please, read the [Wikki](https://github.com/tschroedter/Selkie/wiki) for more details or watch a short [video](https://youtu.be/dLSQiy0LisU).
 
+## Installation
+The installation instructions and files and  can be found on the [Wiki](https://github.com/tschroedter/Selkie/wiki/Installaion) page.
+
 ##100,000
 The Selkie project grew over time and hit the milesstone of 100,000 lines of code. You can have a lock at some statistics ![here](https://github.com/tschroedter/Selkie/blob/master/LocMetrics/LocMetrics.md). The graph below gives an idea of the different project sizes.
 
