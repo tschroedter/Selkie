@@ -1,3 +1,5 @@
+## Thanks to Jetbrains for providing me with a Free Open Source License!
+
 # Selkie
 The main goal of the Selkie project is to calculate and displays the shortest path for a boat travelling along survey lines from point A to B. The algorithm takes into account the minimum required turn circle of a vessel required to navigate from one line to another.
 
